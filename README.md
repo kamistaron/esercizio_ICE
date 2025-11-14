@@ -2,17 +2,16 @@ ICE Technical Exercise – Kamran Dehghan
 
 
 
-##########################################################################
-#                        #     Overview     #                            #
-##########################################################################
+
+#                             Overview                                 #
+
     
 
 This project is a simple REST API built with FastAPI.
 The API exposes a single endpoint /maiuscola_inversa which calls an internal library function to apply a transformation to the input string.
 
-##########################################################################
-#                       #    Setup & Run    #                            #
-##########################################################################
+
+#                           Setup & Run                               #
 
     1-Clone repository
 
@@ -44,9 +43,9 @@ The API exposes a single endpoint /maiuscola_inversa which calls an internal lib
 
     Surely you could try the API with other words as well
 
-##########################################################################
-#                      #   Example Response   #                          #
-##########################################################################
+
+#                         Example Response                             #
+
 
 A JSON that looks like this:
 
