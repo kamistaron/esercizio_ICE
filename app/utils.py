@@ -6,7 +6,9 @@ def transform_function(data:str) -> str:
     #         "ENOAIC" (maiuscolo inverso).                                  #
     ##########################################################################
 
-    if not isinstance(data, str):
-        raise ValueError("Wrong input type. Put a string as input")
+    if not data.isalpha():
+        raise ValueError("Input must contain only alphabetic characters.")
+    
+    
     
     return data[::-1].upper()
