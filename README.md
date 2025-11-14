@@ -48,7 +48,7 @@ The API exposes a single endpoint /maiuscola_inversa which calls an internal lib
 #                      #   Example Response   #                          #
 ##########################################################################
 
-A JSON file that looks like this:
+A JSON that looks like this:
 
 {
   "original": "hello",
