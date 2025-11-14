@@ -42,6 +42,8 @@ The API exposes a single endpoint /maiuscola_inversa which calls an internal lib
         or equally
         http://localhost:8000/maiuscola_inversa?param=hello
 
+    Surely you could try the API with other words as well
+
 ##########################################################################
 #                      #   Example Response   #                          #
 ##########################################################################
