@@ -17,7 +17,7 @@ The API exposes a single endpoint /maiuscola_inversa which calls an internal lib
     1-Clone repository
 
         git clone https://github.com/kamistaron/esercizio_ICE.git
-        cd ice_exercise
+        cd esercizio_ICE
 
 
     2-Create virtual environment
