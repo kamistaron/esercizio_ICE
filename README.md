@@ -51,5 +51,5 @@ A JSON that looks like this:
 
 {
   "original": "hello",
-  "transformed": "OLLEH"
+  "result": "OLLEH"
 }
