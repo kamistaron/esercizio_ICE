@@ -1,55 +1,103 @@
+
 ICE Technical Exercise – Kamran Dehghan
 
+  
+  
+  
+  
 
+# Overview #
 
+  
 
-#                             Overview                                 #
-
-    
+  
 
 This project is a simple REST API built with FastAPI.
+
 The API exposes a single endpoint /maiuscola_inversa which calls an internal library function to apply a transformation to the input string.
 
+  
+  
 
-#                           Setup & Run                               #
+# Setup & Run #
 
-    1. Clone repository
+  
 
-        git clone https://github.com/kamistaron/esercizio_ICE.git
-        cd esercizio_ICE
+1. Clone repository
 
+```bash
 
-    2. Create virtual environment
+git clone https://github.com/kamistaron/esercizio_ICE.git
 
-        python3 -m venv ICEvenv
-        source ICEvenv/bin/activate
+cd esercizio_ICE
+```
+ 
+  
 
+2. Create virtual environment
 
-    3. Install dependencies
+  
+```bash
+python3 -m venv ICEvenv
 
-        pip install -r requirements.txt
+source ICEvenv/bin/activate
+```
+  
+  
 
+3. Install dependencies
 
-    4. Run the API
+  
+```bash
+pip install -r requirements.txt
+```
+  
+  
 
-        uvicorn app.main:app --reload
+4. Run the API
 
+  
+```bash
+uvicorn app.main:app --reload
 
-    5. Test the API
-        Open your browser and visit:
-        http://127.0.0.1:8000/maiuscola_inversa?param=hello
-        or equally
-        http://localhost:8000/maiuscola_inversa?param=hello
+  ```
+  
 
-    Surely you could try the API with other words as well
+5. Test the API
 
+Open your browser and visit:
+```bash
 
-#                         Example Response                             #
+http://127.0.0.1:8000/maiuscola_inversa?param=hello
+```
 
+or equally
+
+```bash
+http://localhost:8000/maiuscola_inversa?param=hello
+
+  ```
+
+Surely you could try the API with other words as well
+
+  
+  
+
+# Example Response #
+
+  
+  
 
 A JSON that looks like this:
 
+  
+```bash
 {
-  "original": "hello",
-  "result": "OLLEH"
+
+"original": "hello",
+
+"result": "OLLEH"
+
 }
+
+```
