@@ -78,8 +78,13 @@ http://localhost:8000/maiuscola_inversa?param=hello
 
   ```
 
-Surely you could try the API with other words as well
+Surely you could try the API with other words as well. Enough to change hello with your "prefered_string"
 
+
+```bash
+http://localhost:8000/maiuscola_inversa?param=**prefered_string**
+
+  ```
   
   
 
