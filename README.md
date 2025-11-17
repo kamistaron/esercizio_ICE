@@ -78,7 +78,7 @@ http://localhost:8000/maiuscola_inversa?param=hello
 
   ```
 
-Surely you could try the API with other words as well. Enough to change hello with your "prefered_string"
+Surely you could try the API with other words as well. Enough to change "hello" in the link with your "prefered_string" before copy and pasting it to your browser
 
 
 ```bash
